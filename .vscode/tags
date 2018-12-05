@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/619a6fa/
+EMOJI_RANGES_UNICODE	../client.py	/^EMOJI_RANGES_UNICODE = {$/;"	kind:variable	line:25
+EMOJI_RANGES_UNICODE	../server.py	/^EMOJI_RANGES_UNICODE = {$/;"	kind:variable	line:25
+HOST	../client.py	/^HOST = "LOCALHOST"$/;"	kind:variable	line:17
+NO_NAME_ERROR	../client.py	/^NO_NAME_ERROR = '(No name found for this codepoint)'$/;"	kind:variable	line:61
+NO_NAME_ERROR	../server.py	/^NO_NAME_ERROR = '(No name found for this codepoint)'$/;"	kind:variable	line:61
+PORT	../client.py	/^PORT = 6666$/;"	kind:variable	line:18
+UNICODE_VERSION	../client.py	/^UNICODE_VERSION = 6$/;"	kind:variable	line:22
+UNICODE_VERSION	../server.py	/^UNICODE_VERSION = 6$/;"	kind:variable	line:22
+a	../client.py	/^    g, a, y, p = generate()$/;"	kind:variable	line:196
+addr	../server.py	/^        c, addr = s.accept()$/;"	kind:variable	line:133
+c	../server.py	/^        c, addr = s.accept()$/;"	kind:variable	line:133
+c	../server.py	/^c = None$/;"	kind:variable	line:125
+chat	../client.py	/^def chat(s, key):$/;"	kind:function	line:185
+client.py	../client.py	1;"	kind:file	line:1
+connect	../client.py	/^def connect(g, private_key, y, p):$/;"	kind:function	line:121
+derived_key	../server.py	/^        derived_key = HKDF($/;"	kind:variable	line:181
+easy_bytes	../client.py	/^def easy_bytes(x):$/;"	kind:function	line:117
+easy_bytes	../server.py	/^def easy_bytes(x):$/;"	kind:function	line:117
+f	../server.py	/^            f = Fernet(base64.b64encode(global_key))$/;"	kind:variable	line:137
+f	../server.py	/^f = None$/;"	kind:variable	line:128
+g	../client.py	/^    g, a, y, p = generate()$/;"	kind:variable	line:196
+g	../server.py	/^        g = int.from_bytes(g_data, byteorder='little')$/;"	kind:variable	line:159
+g_data	../server.py	/^        g_data = c.recv(1024)$/;"	kind:variable	line:146
+generate	../client.py	/^def generate():$/;"	kind:function	line:172
+global_key	../server.py	/^        global_key = derived_key$/;"	kind:variable	line:188
+global_key	../server.py	/^global_key = None$/;"	kind:variable	line:126
+host	../server.py	/^host = "LOCALHOST"$/;"	kind:variable	line:17
+key	../client.py	/^    s, key = connect(g, a, y, p)$/;"	kind:variable	line:197
+message	../server.py	/^        message = c.recv(1024)$/;"	kind:variable	line:140
+modulus_data	../server.py	/^        modulus_data = c.recv(1024)$/;"	kind:variable	line:154
+p	../client.py	/^    g, a, y, p = generate()$/;"	kind:variable	line:196
+p	../server.py	/^        p = int.from_bytes(modulus_data, byteorder='little')$/;"	kind:variable	line:158
+parameters	../server.py	/^        parameters = pn.parameters(default_backend())$/;"	kind:variable	line:165
+peer_public_key	../server.py	/^        peer_public_key = peer_public_numbers.public_key(default_backend())$/;"	kind:variable	line:179
+peer_public_numbers	../server.py	/^        peer_public_numbers = dh.DHPublicNumbers(y, pn)$/;"	kind:variable	line:178
+pk_len	../server.py	/^        pk_len = int.from_bytes(c.recv(1024), byteorder='little')$/;"	kind:variable	line:172
+pn	../server.py	/^        pn = dh.DHParameterNumbers(p, g)$/;"	kind:variable	line:162
+port	../server.py	/^port = 6666$/;"	kind:variable	line:18
+private_key	../server.py	/^        private_key = parameters.generate_private_key()$/;"	kind:variable	line:166
+random_emoji	../client.py	/^def random_emoji(key, unicode_version=6):$/;"	kind:function	line:64
+random_emoji	../server.py	/^def random_emoji(key, unicode_version=6):$/;"	kind:function	line:64
+s	../client.py	/^    s, key = connect(g, a, y, p)$/;"	kind:variable	line:197
+s	../server.py	/^s = socket.socket()$/;"	kind:variable	line:16
+secrets	../server.py	/^        secrets = True$/;"	kind:variable	line:194
+secrets	../server.py	/^secrets = False$/;"	kind:variable	line:127
+server.py	../server.py	1;"	kind:file	line:1
+shared_key	../server.py	/^        shared_key = private_key.exchange(peer_public_key)$/;"	kind:variable	line:180
+to_send	../server.py	/^        to_send = input("Message: ")$/;"	kind:variable	line:138
+unicode_name	../client.py	/^from unicodedata import name as unicode_name$/;"	kind:unknown	line:7
+unicode_name	../server.py	/^from unicodedata import name as unicode_name$/;"	kind:unknown	line:7
+y	../client.py	/^    g, a, y, p = generate()$/;"	kind:variable	line:196
+y	../server.py	/^        y = int.from_bytes(y_data, byteorder='little')$/;"	kind:variable	line:160
+y_2	../server.py	/^        y_2 = private_key.public_key().public_numbers().y$/;"	kind:variable	line:167
+y_data	../server.py	/^        y_data = c.recv(1024)$/;"	kind:variable	line:150
